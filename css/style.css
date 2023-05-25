@@ -155,6 +155,21 @@ main aside span a:hover {
 main aside span a:focus {
     border: 1px solid #CCC;
 }
+
+footer {
+    grid-area: foot;
+    background: #111113;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 @media screen and (width >= 768px) {
     body {
         min-height: 100vh;
@@ -168,15 +183,13 @@ main aside span a:focus {
     }
     main {
         flex-direction: row;
-        /* padding: 0 30px; */
+
     }
     main section {
         width: 80%;
-        /* margin-right: 20px; */
     }
     main aside {
         width: 20%;
-        /* margin: 50px; */
     }
     footer {
         /* margin-top: auto; */
